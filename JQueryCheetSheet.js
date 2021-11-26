@@ -30,9 +30,9 @@ $.ajax({
 
 //=====Browser Height & Width 
 
- $(window).resize(function () {
-            let x = $(window).height();
-            let y = $(window).width();
-            console.log(x);
-            console.log(y);
-        });
+$(window).resize(function () {
+    let x = $(window).height();
+    let y = $(window).width();
+    console.log(x);
+    console.log(y);
+});
